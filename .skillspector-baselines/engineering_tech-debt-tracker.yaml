@@ -1,0 +1,56 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:6f28eb33da50345359c7fa0789917da1036e05d2379744bfb5f76b5289471a3e
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5496534f9e1096c1600d03d4350300bf4895170256faab919dff0f2499170510
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:fdbfb94270aeda0f612b4853d2df180f6d437d6d652df2de3e783ef2d9703354
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6b16af0807e0e90aa93044f30de3920e2046e4ff4effd4acc074428a1bbdfe9c
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:bfd3c089d311fddea6d74a3c0cd4f048cd707f743eaaa2e0d014a2c23bae41e8
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5340cf202651f4c895535a7ae7e878ccbea02b3f20cc922f93514668ad321a56
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:146206443164a68d32ae8d4855c7ab76fce35ab50f82693c67b33aacc3661baa
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:82437ee5b01e4379c954966dc5f6b1eae0b8dd83550a47ba811db7a4fa89c050
+  rule_id: E1
+  file: assets/sample_codebase/src/payment_processor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c5bdc03bb3a1167b6e05c7f2a73fdd68433c301f9b67808a2e371d7ef8f38b19
+  rule_id: E3
+  file: scripts/debt_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4d0c93b9e6fe68ed5f846b772f95d0142e9542bfcb9e0888e800dacb49b907d8
+  rule_id: MP3
+  file: scripts/debt_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

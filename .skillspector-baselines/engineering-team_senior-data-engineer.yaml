@@ -1,0 +1,56 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:11eb902013c37475359bde3a34958468d4189273a8deee291b1b6fdb4064cd5b
+  rule_id: AST6
+  file: scripts/pipeline_orchestrator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6796e153ede4c72a39f805d32c82e11da5bd3a72e0c9a64a13d252c5d756bbf6
+  rule_id: AST6
+  file: scripts/pipeline_orchestrator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2addd4b05a23dfcc8208d9e72354e7b930645e7eefbf2c5381c2b00ed8943582
+  rule_id: AST6
+  file: scripts/pipeline_orchestrator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c9235452b7cd2bfe58078c1aebcac4d2317ca3996124aa952c11a488b7419ae7
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:411bce3888ec132f70e2b88eb408ee04b90e505be0e89f5a6563ad5a7fb42717
+  rule_id: E1
+  file: references/dataops_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:996ca5dfd84bdcf9b791aada37d3a84fc429042830f5d37bb1b9fc0c59e285f1
+  rule_id: E1
+  file: references/dataops_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:647205b1eeefc43162aaefe81e262045b1d237e425c9ded0c1532cc5534e49aa
+  rule_id: E1
+  file: references/dataops_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:28f7c46b735879a1a0cd84fc596f8a5d2eb3b26ab7fe99729a29b34bf4b2ff54
+  rule_id: E5
+  file: references/dataops_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3398c0d81033c50129aeee2c98a3920f476d6a243ff653159f0af46298a4113d
+  rule_id: E5
+  file: references/dataops_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1abb147e5e336e4287b573410e5e067f63179cf971000b311888080db8acd6a6
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

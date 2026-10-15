@@ -1,0 +1,201 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:91ad6d8c6357b5ccd47768071c801abb4eff4897ba78f322f37397e332f09147
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a8e93bd5fae28bc59cb0725654a5663cbc70909e640a08c51470e923feea00f3
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a293b79e655f2a1a2a39d8a1bbf5d025c2099a5090a7f856045b601ccc14b352
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1a97c2a629f484f15a7693fef2cfaf120202893542358afb97a9c6312e85ce12
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:15e5cab26c607d5bcd90fc27b6cf0069a3ce1d8e5f7be7335f255dec4e478675
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:688b2afff4c94e93043e80d9032afe11fc4db01bfde9a20488a743795d4b4743
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:feaf26f50e73430601eb72bb68faf6b4bb5bb62e460a221d687352cfe93c4d8c
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:871d11ee4b8f2c49ddaec50f661e08275ebf51b2f498f46030deb6c78bc00a97
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e7b729b18f750b86ec1174fa9daf911c8edc14660dab2dd3767d9faf322cda9b
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:30e43542a0ed73d6f10fb5709b599d8d27d84e6789e5efa8340eafa626598e7b
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:99e1231a84737ec556b018d8a2326b32818a6ac4d45c93f3a6b8cac7de0f1dd8
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8ebf623fe670932c6663d9831fc07ac5c5775151d6aebc504bb2872a6c360244
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:897ef54c22f45f9b21aff21d9d3f27d9f1351cceef0442126c20e09088509b4e
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:aeaa16ca9258ba047a3bb309c9d3c68dc2518e9e958aa3d6825b4a883eda1a72
+  rule_id: SC4
+  file: assets/sample_package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b3b95b3cc8f3dff2e78701e90358cbad1fc8330a074e6fa93529df6c72b6bcc0
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9cab5714a822245f8ed20f7d56efd2db574675a72313639f0bc77bdfec779e4c
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1da08bb7d0da23cbf4d631e4ec968bbe9224cb16924c78f2eeff585d5a8cc651
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:cdbcef974a1c9c858b2697558f8a3e39ed884ebfd6adbcf866b9d7fd7bb20a07
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:717269f28281374cdf4f2947d0576e901088f775926a7a43803311a3c36052eb
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ba041dd9db163ba02787840b1e2065f2b9de90b48027f2b73fbcb01f35d2594c
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f968b9bcecda2fb83ff495ec6172d754a066b0d66dc6c93ce2db882a051b05de
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6b57da197830d5b4f252e552fcb8f79cc41dc8076808909c5d8b20ba329894f6
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b31547d1e77e7fbf50c374c51acf367153d4089504d7bf1468cdcd2c2d4b98cc
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:751e346658341da66de16fa4d2cb0a64e387739e260ef2dd84741db649a400ee
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d485c2954c41e3909f03704c1a21862362a6d34f6ecdd5c98d041264fcc08f05
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:90c7c114fd7ff3802a4c58c58e18f515bfdc569a4ccb940a3900f51bfde951ca
+  rule_id: SC4
+  file: assets/sample_requirements.txt
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6fda33558123f7cb86104e8a1fab2f5bf5cba47afcb41e40896308167f77d68b
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a87dd4217269a2a13049180493ebe51691b9f8d705cf405f71b6aa258e8b4499
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:09203c7cd6d33ad0649b9ef436ef3ce7880a1d69cff810e4c0e74f13fedc5af7
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a16fd600d43eac4c1d38360c1ae0193238774947e41cae3ae2465237976ff4a1
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ba8545a4e13ae801a88cc6a97864c45406cd3b3f0cdd8c9b9ea2e1e8dd8f9b65
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:52b867d11066ecce22807761ad14e81fc789cc6788920390d798c42436db5794
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8474753f5a05de1a982b0e59799f0626f82835e63a2d15032b5ce1b3abaf4601
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:21b60485d0e2dc144ffa3a4e9cc8ad90f64a7bb2bdaa8678f7e5097c79d68474
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8ea4ece239613539197cf5674322ef697b2302f209c611842b3500c681a99a3c
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d989cf09d132c9c2bb5a21101fc9460089eb06c57648f2aeb6d276257b69d165
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f87ca18c1591529baa5228267a1fada9c3439e8fa68f7c07c0c8306f57cd37c3
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b3f15d61203b31842bf0ba79efaa19eccf921994005d68dd9c6e4b1c812686eb
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:38bb581386934b60f8ec4ef11e540ee260310474f0824adfb170a883347eb13f
+  rule_id: SC4
+  file: test-project/package.json
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

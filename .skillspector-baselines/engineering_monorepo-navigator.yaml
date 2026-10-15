@@ -1,0 +1,26 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:b3904e1520a2061d531e5c94d8cabc6f9b6b4a2bb0f17b691d16241101e44b2d
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:bcd22f0aabe5796db673bbbfd4630da3ec279090f9f7b9397a5b22f893c356d7
+  rule_id: RP1
+  file: references/monorepo-tooling-reference.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5078e20f8a5922f4b44a455cafb7b11b6b9eec2970eacd04680c9d9aa3f14162
+  rule_id: TM1
+  file: references/monorepo-tooling-reference.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ca279bbdb8b03966daae1cab06da16c9f9c762a05359115c24042aa244ac30c9
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

@@ -1,0 +1,136 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:2b203c70d703443b46d12b66529efed19f0ddc4736f47506253093e1a88f03ec
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:0c7f20a51a926247243f24ec5a2ab43cdeaa79c3a02afdd597aaf585ed4682bd
+  rule_id: RP1
+  file: README.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7694834890055b7726e62c2111a7d26f367c1758ce8be77f3ffb1dbc35f500b1
+  rule_id: RP1
+  file: README.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b2b052bf1ca284db3c3f4fc7f54ca089eb4181af28b5aa3864daf4f3351735d5
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:25348fe19ca64f15b9c01eb1da55b29d6f577e556c3792f424b9d9d847338f3b
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:80d8999ce181946b5ebbaee9096002ffdfb084662b27fb94cb1563b6bb5bc364
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5d4313156de6608ed4545457beb458b5518089bbb87841c0eaa81cf56319a567
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:73cfea0e1c772d958788ad27e0d878a616261b6c78711b25f66ed6f0d0180cbf
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:61e795a73f874a5e17ec32d74829f7d43ef6355c111ec2090b10c6e92f011acb
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:689c31f09500ba0c17aa293e08ef9575b39cedf45257dffeddfcff5d52359665
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3a00bb379de795d077747268fdbad8feaca5c71bee61fcc56a0300a5e2128294
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:93d7803b63ebe9021681a5a4f83cff8abe6a4b33d2fdb45b4166ce9e4e8f2ade
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:080601389dc5505ffa460f2242062813f2b24f58474bda5f73d9b4c0c3bd918e
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5b6f76c3e05243c4c0de865b9bb38262d5dc397b742914ae058630628cd63471
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:841ed66540925d9c5fc310a689f09d8f1813866056fd11ca00d93974a2095317
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9315d6c0fe9c05b14e38ccbfafd335146387cc7ab6fad60a2ee1f23b06692ef7
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2ff6435b77e2792470839ce1fe4075317ccc708d212074f1af3540db90ee52ff
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4e48bbb74477334c345f402e6d94be50340b9905ec5d292c9adf2acd810fcf3c
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f0fbb2a4200b425a35f854b876bf7c0e7500a443dcd63d3b93a576f4c8e86c43
+  rule_id: RP1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d2976e52b01fb1203fb70dbc960776166ebe9c4e9281fd1a0c6beb3c2c0eba41
+  rule_id: RP1
+  file: references/testing_strategies.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f1517af514f6c11bdcdfc0044070ed4a4dced44734b3c14cf2bcf31cc9b24c0b
+  rule_id: RP1
+  file: references/testing_strategies.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:39e027da49e0a6e4f4ce0a7d1673311f847ee4255e70f81696cdee8a07da69e6
+  rule_id: E1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:0ce2f416faf450cedbf74c05627f6ce0786cca1d4b6c22a91ac951d0ad0f0e86
+  rule_id: E1
+  file: references/qa_best_practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:709449b49ccf780a482b32665553732801d3498a970bd3cd20181d612dc6ca27
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e8c0bdd961c8dfee047d92cec5db1135c36d7accaf4fc38acd13dedf19d788cc
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2bbc5bc8bf03730ca6177cf6d0c9635fd5a01dcfb1386714270756844f9b1ebc
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

@@ -1,0 +1,76 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:d3ea6e2a0f65c1e6fdb0189993bfd752bb3a7408a0d152e93d082a122e893a0f
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:03310ab13ab63071299a350cec1df45ae13e47acba1ada276ea9d088c95fc1f8
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:82e25d0828bf8e3b69512caa6530812172ecc1f7522dcf6f8df262c5d514e47a
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3c7cdb19f7367a8d9db884bf30752e957fa54495ff89626aed8966fddb19de08
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:41ed4397641589be5c64a037b21f6082e091f94f546327b00e0231e10981ec36
+  rule_id: P2
+  file: references/depth-system.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:37743f33f39c2856e9a1ad341da8359b15e618987c7e845b2a2d4becb175949c
+  rule_id: P2
+  file: references/inter-section-effects.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:0a892623dc3cc93c4cf8490176ebccb91dcf0667caa68b8620f6fb1c01b8dda8
+  rule_id: P2
+  file: references/motion-system.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:87569d2315e2b7af8bf717e8f745989c0855a3952059dfa3412c9c1d72d56c25
+  rule_id: P2
+  file: references/motion-system.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:82ed0bfd7625928d72ea93599ab77f6f9c0092ba75c5789a8d1c9ed73dedd74b
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:49ad39fb3e815395bfc01f80ea4c8634e5b1e268776a601ebfccf8f733bf12b5
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4509d50f334fae1f2a5974bbe8a6683074eae5d6bf558c91a3683fdd75d41979
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5f1d25f697e0f00429b8035c56a9099edfecf7b132d6f5a0417bdad1f9147072
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6bdf7b2cde0f4febde7e8a027ede309a8e45995b281b2514c7ac3b7a8c6a6299
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ac90e816d50aac134934553a262c9fd3b43c4f3e15d4d2e3e0a2f2e25e9f0310
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

@@ -1,0 +1,121 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:8a686892b69c40e948d63ab7133d87ee0650ff459591e7616e09759af62a6324
+  rule_id: AST3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:273251ffad04a71bfcffef0cf0f08c6b633c46de7b04d0865fb716aeede036e8
+  rule_id: AST3
+  file: scripts/threat_modeler.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ccaad0c925dcf000c4f8ff4168ff2b90c2d100fc95fe81371a2798601a5b598d
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6cd950606faf7bf3d69048337128e9038ae6d09215ab16352239a7da39dd2d16
+  rule_id: PE3
+  file: references/security-architecture-patterns.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b02425701997e876f1050126de0be389019463fa0b6c5444bafaa305ec0545c3
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:59512b679589ccf99f7771f226c0888a0d074a18bf95c5a77fe6b07c59dd833c
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:811169ffc54368c961e4b647b470db8551172e22fc304b061aae316088016e19
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9be35dff6bd20b9866cfea408bcf4d21cb24cbd6b83a557dff9828e8714f5e0b
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1f9a8769c874fa3feb6eb76607b03a95aafcdcf5db49d353c105168449616af0
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:14c38fc6e22ede452a057080eb7761ce3b814789fbf8d570e284867c9bdf9b95
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7327658413368628ce354fde605f6958f59cac1e7a1392ddc0bb785cf2fd3fe9
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ac1632bf64b20242b739f2ae431804dc1a0d8284db4b9f86293f3aa49ff44622
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1a5628eb16bd47297d9693e154e25ce794027ab7bcc617261f4cb816bc50c5a1
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:23cf71110b03141359d4d6dfa158facf42df07f9b47349d16b51533babb6a2a0
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:af9a5240d49ecf09433fede9595152a593179af3a63665463f698e756fd69356
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:74d6d55a042bcd471ee5ee3571372d44b3c0c92ac2f50a2f46454461da974828
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2d53981378319f7ef641911d0f69a10395f82c3ae18471f1afafdbdbe621197a
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ef8f781091d56ad63e74a19da6b63832041872abc37025f326894a0df6a93ec9
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5ab68194a070ea4791ade8df567c33e1f6a37bc04298ff1a9695f8e81460c590
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d9937062904e9cb64d38b393f6a62d0a065213ad8caaac6d5a8b42fd918aaf8c
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:89960c99235398c79b5fa831da2108bc1146884880cfbd77bbc138a3c78c2194
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1f7506f8960cd35be16b5a91c9fa0868d644315b90bc2a13e4c6e834600c9dd4
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4fc7c23f8c30500c497f4c29fe91193522b55321053f6774a6e60a442bf868e7
+  rule_id: PE3
+  file: scripts/secret_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

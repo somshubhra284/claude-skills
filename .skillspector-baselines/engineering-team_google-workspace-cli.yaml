@@ -1,0 +1,181 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:feea1878932d4eb1c8516fc95b0d14df5db865b76141acf165ebf576b652b887
+  rule_id: AST4
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:716dcbe7567e6c6b74a55245e107c181bcf8746a0bfaefd2ab6be778c29642a6
+  rule_id: AST4
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:68a1cd6b6dd74f8eda276ce77498312c4724043ed243e9cb6d6d40808b092008
+  rule_id: AST4
+  file: scripts/gws_doctor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c844f029c66c96f289732b65fc11c09bfb17f358761107f3e269bf6c6ce802c5
+  rule_id: AST4
+  file: scripts/gws_doctor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:0bb0972d3e0411a2583fae2ccbef3e161a808c6c6d62bdc854bd5aa65e41dfc9
+  rule_id: AST4
+  file: scripts/gws_doctor.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:32300e717b015df0b160ad3f43ba9ed2dceee4bf13c5efd0c6d088ab96647c3d
+  rule_id: AST4
+  file: scripts/gws_recipe_runner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:062381f0bd5a6336c521c840f7472846b011380e2af85660b702b1b5d1666c73
+  rule_id: AST4
+  file: scripts/workspace_audit.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:bc6d91b7c0077773033fc831fb875da796bf7e01e5a24689469f364562162042
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d26614ce56d7e18492418b4670c29e1734475ae964b33d869542a9e0ddd8755f
+  rule_id: RP1
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a04b15d824f5d3b88aa3e01c0bfc0c719a58738d7f013ffa4ee581adab7f925d
+  rule_id: RP1
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8c1ac35f8db5a0c23e5a3ad57c56b6849ded083cde7b71a4526ed8914b72aa11
+  rule_id: RP1
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3cf20bf877bae22db6a971e73b1b85d81728243d9f97a52c52339b6c83511c19
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8c27dd0563c1e671ee0d1e892651a4d63fa65cae15df6840faf670ba6faff31b
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ffa5863f7d2acc953b062971a32b98a905332bf46fa4dcfc7707cb1afb0cc86b
+  rule_id: PE2
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4d4b1b5ccecf2953c9ff408fdacdcd51a96985b71567287c582f02fc64f02135
+  rule_id: PE2
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:79510ecb0056b1b8d9dcbe283ab4aaeef46a833d33a5f73dae9ea2c3f9ef03b4
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9f8cdf8d8bf3f70e025c541fa9bc29e04abd5e789438a15332fe95cc9baf8262
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d40a494f1ac18d355e04684d20e42d42dc12f6e7623c4f97126e7d47a8b9f35b
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:a93433b3c7cca8f3a758a51de543e04b1990ca41ecdf448c43a6617d253abcc4
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d2e33c05edc4dfa98f84d7a68baf65c5949b1ef62710e1d797cf8c9a4e2b0336
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c4149c947afecf9e01d59a3a7a7ca15d3fddad84d8d06a3a95e1f833199e5a54
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:10aee06f2870a9c2c41f92ea6ac8f8368b7c657c262e176a7d38cf56b5b9386d
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e22348f580294262e245f1d047fe0991642c66f4165565167674cb1b8318181c
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f9b4d183cf750c6410111a478cca95baa1f6da0d4ee426f7dfa0f2b4cc3872c6
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:000aa2b147dce4b53276399bd2a4cd34d19a4d60d2f2afb69982bb35888606dd
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:de7ae824131c883a8c0b6dc37c6ab7ab8e20536f14ecda2165d7ec1d15416f3c
+  rule_id: PE3
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7e194942145c0d29a61f1d784fd824e3a122cd231504bb00e2deb91a4bac0a7b
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7d82028d757b4ce784b07010253caf8159aa497c1fed4102807be699f9e94961
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ba979a352b90a242ffa2b5724d28b77607bb2a4269b9dd34e07eaa0ca8f6f44e
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:34a0b1bebecb9a7b98e82f7fbb3aea36ff8e66d9ebb30709aca4b1d4dae28d39
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6c8b0766a9b25a2dfb6d687fcf7f8b608cc30f6184ebdd1a5091f8db283d36bf
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1468225ef43a5906616504c6671cb0233aa495767aef448ca1eaac7871657646
+  rule_id: PE3
+  file: scripts/auth_setup_guide.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:25eaefd862460dd42af7d1c56b33000b28347b7e801c22dabd617594037ec198
+  rule_id: RA2
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:97ee56119262bffb19f2a07f9815aea19ae047d91e318f51c48c5a4c339cf4c5
+  rule_id: RA2
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d846df82b020f5f1656dcae2a0f079be9a7bcb3dd60bdf821d1428e981218c28
+  rule_id: TM1
+  file: scripts/gws_recipe_runner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
