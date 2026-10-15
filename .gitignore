@@ -81,6 +81,3 @@ tests/
 # agent-launcher user output folders (goal.json, payloads, launch.sh live here)
 my-agent/
 my-agent-*/
-
-# SkillSpector scanner clone (separate repo)
-SkillSpector/
