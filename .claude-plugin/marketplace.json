@@ -1136,26 +1136,6 @@
       "category": "productivity"
     },
     {
-      "name": "andreessen",
-      "source": "./productivity/andreessen",
-      "description": "Marc Andreessen-mode decision and productivity skill. Market-first operator that pressure-tests ventures/ideas/features/bets (market > team > product; product/market fit is the only milestone; bias to build) and runs the 3x5-card + Anti-Todo routine. Fixed anti-sycophancy operating prompt: counterargument first, no disclaimers, explicit confidence levels, no capitulation. Issues hard verdicts backed by deterministic stdlib tools.",
-      "version": "2.9.0",
-      "author": {
-        "name": "Alireza Rezvani"
-      },
-      "keywords": [
-        "andreessen",
-        "pmarca",
-        "productivity",
-        "product-market-fit",
-        "market-first",
-        "anti-sycophancy",
-        "decision-making",
-        "anti-todo"
-      ],
-      "category": "productivity"
-    },
-    {
       "name": "roast",
       "source": "./productivity/roast",
       "description": "Pressure-test a business idea before you build it. Convenes a 5-angle adversarial panel — The Critic (what kills this?), The Champion (the 10x upside?), The Analyst (does the logic hold?), The Investigator (what does the market say?), The Customer (would I actually pay?) — fired in parallel as independent reviewers, then a Judge synthesizes one GO / RESHAPE / KILL verdict with explicit confidence and the cheapest 48-hour test to de-risk it. Never averages the scores: a weighted synthesizer with demand/fatal-flaw/logic veto gates produces the call, backed by deterministic stdlib tools.",
