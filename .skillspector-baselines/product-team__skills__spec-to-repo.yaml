@@ -1,0 +1,51 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:a7d4929155bd8563cc0fc961160751403ef0f73d5cdd99a7e605c959455fbf0d
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4a783dbd10d4c54ae415bc88c952f73bdc9ea46dbfcb1ec09554b4932acff9fa
+  rule_id: E3
+  file: scripts/validate_project.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:99905fe4c76ee5f54737739ec46cd577782a8a275970fa502202f279ab2745d1
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:06a0ca6d16a5ef60f4435903c4d69cbab5c1da3e769523732a654be3785dfa1c
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:2f758553e9461a88c488df6ac883d0ea77c6e8e11e6fbe2a72071760310e9f8c
+  rule_id: PE3
+  file: scripts/validate_project.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e05a419fb823114167d84ca902f4eb7594d5d5f48fb24648b2f5c84963594489
+  rule_id: PE3
+  file: scripts/validate_project.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:45a5c13b7d2325e093d98db6b6bd963d2b30c5072c049a05726f8646a5143c58
+  rule_id: PE3
+  file: scripts/validate_project.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:8db2a070149aded9419a06475813822a1d81b84e9729a8503c13ccfdd0ee0c1c
+  rule_id: PE3
+  file: scripts/validate_project.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b72ffa575616a527325cac8d704242dba48baa01a838dd5bc665e42239da5995
+  rule_id: TM1
+  file: references/spec-parsing-guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

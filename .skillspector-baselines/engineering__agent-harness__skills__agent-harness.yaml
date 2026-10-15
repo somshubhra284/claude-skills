@@ -1,0 +1,46 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:428db71c447f93b7f4d021b004d3a8b5cbf9c018c70e6cae3de35689fc0cbb7d
+  rule_id: AST4
+  file: scripts/loop_controller.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:58d2e0f20533372d76fb50129b8fefcbe3b8915b8f94129eee6216045ee25243
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b550a23301b7078b09d4b97e6fbc406c22a3bdb954caf051177c0f5aed085ad9
+  rule_id: EA2
+  file: references/verification_discipline.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5f90078db87adb08e33cbaea34efcba2570530377332ce26733a2ec391f2ca07
+  rule_id: EA2
+  file: scripts/loop_controller.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f7269048db1f2192e0c863024753c4ac6d3fff9084106bc78da2d69b11d58cd6
+  rule_id: EA2
+  file: scripts/loop_controller.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7685bb94c15ab5d0d2a2251495267a24384c4209071c93ac4977040cc2f83613
+  rule_id: PE3
+  file: assets/harnesses/engineering.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b0e7345f7253d36cb16dd71efddb9153dd9d25af2c44c6adbc705acf8724544c
+  rule_id: TM1
+  file: references/verification_discipline.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1b49fa3b65a96d28df6c5679a7afe76ed55eeaeded95c8cded598369af711db7
+  rule_id: TM1
+  file: scripts/loop_controller.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

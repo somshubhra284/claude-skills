@@ -1,0 +1,136 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:99b754c07e0e57230de65e68100cb76053be517519c6d59f52f056c7253694d1
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:84d5fcee0b962f36e0ce70e09e4464c36341c8df8ecda750e128e9a84ee56cf8
+  rule_id: E1
+  file: references/zero_downtime_techniques.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ddcf411e611a8d79df3b740885f8ac1c0364a4ad826debbcf4a5c85ecd452e81
+  rule_id: E1
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:07b1c285995b7a95a6c233e221a770de89dabed5d6cff2a9ca2d022a57e3eaa5
+  rule_id: E1
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:05a2d5392a2cca486898d79a739b4b553183b23784f36bb4d0a9e4f628990c80
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:86ca2f29da548889dd8c8585c9ddc02044fff4f50f032068cd64d5a7d24ec8f8
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:0d943406dcba4bf1fc5a2f6d26df2c0b2b443d66cfa524828e815eb4a3b43f96
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a78e4d8f27841ef1bfde4254c13cedd8db924b995af9926d843e82f46afab61c
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4f73630a3de16ac033aed5dc5f00fd1a1cf20a5a7d043973417b85aa812fc978
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:db6cb0a68026e95fb713561fa336bd5fd76f331e3395e0b88a4fbd66ecb91ce0
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.txt
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6fc3daf61a9cbe2bf46a1453b4a53548cbff279b899dadc6e39c66d312460a2b
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.txt
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:04e40e0556a7c03ee3814bc1043ebaead51493c5e13e963a0182703a605d1b17
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.txt
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b04ffa04822c074da74bb29b1e129fd24a5ce2c0f21e7af4e2c8c1ddd815fe0f
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.txt
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:480ac9f9967e3072b101caa773a5656da0e4b9cc4f93dc9ef277a3dd6a2ce8c0
+  rule_id: EA2
+  file: expected_outputs/rollback_runbook.txt
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3fb9daf0bcff1e25096496e437bc02592f3f0f345a2f96b9b6f2ae0c5e384e9f
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:8d68aae494fdb1658035f7b5df7c5d2177b901cdba990f18e411d6959eb19fe7
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:500148e1e0513670c257dcf3a2be9f02da07a8a1635be38365f141a80a53c6dd
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5d8db63bfb004520cacb34a0534eb0a321ce05af7a0c906f461ba33a68a1cc97
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b7bb0725515f42394011a8cf9e0bddaeeaa37dc38888c91289a3f1098ad65529
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e4b1d0ae1fa4be01fe041aef44fd3b4c992f6301836442ab810eb0f6cd82cb78
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1bdb17808980c6e345701aa55dc648ffcdc035a6580f63b929ad21ad649d6ff3
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:2fef6fc39acb8cc5ad0b1783aa6012cee386da87cd13ed1717b8a22d822dd028
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9136d4b2af6c91749016827fa12da3f17d98e54e023117ce78b71496476f1a7e
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e9bc7f30d165071b9cd5057d375e8801e7e5766d88b0ea8a2ed0920007904b89
+  rule_id: EA2
+  file: scripts/rollback_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:58c62dcb70fafc904f7d88f243ffffe375b20b22d59a7899498a5872f9d43808
+  rule_id: TM1
+  file: assets/sample_service_migration.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d135ce9ec5a37b724b8370ca0c50e597aadb01213d008ed463572c493b4483ed
+  rule_id: TM1
+  file: assets/sample_service_migration.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

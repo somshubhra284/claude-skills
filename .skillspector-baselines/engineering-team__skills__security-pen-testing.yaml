@@ -1,0 +1,116 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:884a51f4eb9ec4037964acff0e113d8fc8970429eff98727c41ad2e04eb82e5c
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9be7f8aae7e399925163679dd79591293f110b9fb29b937790a0ac98bbdcb21b
+  rule_id: AS3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:918c90663b268661dfc2b232125212a0be81c5c79ea524a22b47bd09ec6720d0
+  rule_id: EA2
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ce7779688b69856440f925ac4a22bcce55b43af100b8d80c58ed9c3463553c40
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6b681cdcfcf1c8a591e7992e63ef2ae0609e9a99519ca5eb9dbcf3f7e19efc75
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9b0d240b87e77e0d870a6c83657899cdb51d64d239f631b4389cb2dc00ea685f
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7eca1fddef1dc66b150b216d2fc158c59dcdd35ddb782ad618a5e7bc8fcd499b
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9ef0048a4d7dde71ffd27cd3e9eda644cde1c48c376debd55bede609421d487a
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:452632cba25ed131466be72dc423dd4f1fbfa5b89ad063f27c74fce8805c8292
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1e5ef3bde3af576245efd44a1da5ba239c7d34f6acb93a80a51e13650c85aee7
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7f3ed4125b12c085e7c741d932809971221b977014f5bb8873d7c3e0fc38bcd3
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d0687175cc056a3a795dd7874aade57667cccea407f068834da9f3357cacfb5f
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:33cea8074a822442d79916b6a9976087e9b70109dc9ee97ed7de9304c0ba68a7
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e9b50fc8a7c72c8e36d158cb93ddd518d80a45b95a4bb3d745fb31917682368b
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d9811648a56237dc20c856797e9eecff35613cc5da1ba852ebadab6e85a0a6ae
+  rule_id: SSRF1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:624fd5942127169a1abe267aa62a5b654bc90c1ba629cebeb830c998c733979f
+  rule_id: SSRF1
+  file: scripts/vulnerability_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4c46ffdb483150e3da5d9d219d8e4246b2367a7f7e2cc8e5f73545c76d7f9a27
+  rule_id: TM1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d1ef75d65d5183afd16d84d778e5d7c3b46b842265e67c546cd37830a4461261
+  rule_id: TM1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:db46a6672830178aeaf82528a5bf394b1fb421eb1468aaad47d37000d251b0e1
+  rule_id: TM1
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a730d4ea797949a34d45ef0b98b6b4958cb3cf043281c2aa0244f61fc804c69a
+  rule_id: YR4
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f2b59257aafea57e6b9fd2ce6b06d03b8780b951733a35607b34463fbbabf5a8
+  rule_id: YR4
+  file: references/attack_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a7129c1cf648cad761a4abe2f5f26a5d6699a50e9eeb2acbbaaa3f053074d8b3
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

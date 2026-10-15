@@ -1,0 +1,26 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:72d4ee28bf7bd86b7242bec1be6f80dc543cf4eef7df1aeea139f377f482c231
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f9ea652ed4e87b170aab7861467b686aae0667024144ef6856d26f014c4f1019
+  rule_id: EA1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a25d9c3e968a1db7dbb0c36d827d9878a42c8c12d30f9f8d6f709870ed458b1e
+  rule_id: PE3
+  file: references/tech_decision_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4a4a6a345801b76281964b9bac61a3e5b0c9f12b8e822c98bcfafe270e150ef5
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
