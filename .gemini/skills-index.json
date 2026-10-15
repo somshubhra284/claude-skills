@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 436,
+  "total_skills": 435,
   "skills": [
     {
       "name": "README",
@@ -1909,11 +1909,6 @@
       "description": "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use when conducting user research, creating personas, mapping user journeys, planning usability tests, or validating designs."
     },
     {
-      "name": "andreessen",
-      "category": "productivity",
-      "description": "Marc Andreessen-mode decision and productivity skill. A blunt, market-first operator that pressure-tests ideas, ventures, features, and career bets through Andreessen's actual frameworks \u2014 market dominates team and product; the only milestone that matters is product/market fit; bias to build over deliberate. Use when the user says 'andreessen', 'pmarca mode', 'should I build this', 'is there a market', 'are we at product/market fit', 'pmf check', 'pressure-test this idea', 'be brutal about this venture', 'market-first take', or wants a no-disclaimers, no-hedging, confidence-leveled verdict on whether something is worth pursuing. Also provides the 3x5-card + Anti-Todo personal productivity routine. Runs on a fixed anti-sycophancy operating prompt: leads with the strongest counterargument, never validates premises, uses explicit confidence levels, never apologizes for disagreeing. Not for polite brainstorming \u2014 this skill exists to tell you the market is dead when it is."
-    },
-    {
       "name": "capture",
       "category": "productivity",
       "description": "Captures and organizes chaotic brain dumps into a structured, actionable system with zero information loss. Use this skill whenever the user says 'capture this', 'brain dump', 'let me dump some ideas', 'I've got a bunch of thoughts', 'here's everything on my mind', 'idea dump', 'let me get this out of my head', 'I need to organize my thoughts', 'here's what I'm thinking', or any variation where someone is unloading a messy stream of ideas, tasks, thoughts, and plans wanting them turned into something coherent. Also trigger when the user pastes or dictates a long, unstructured block of mixed ideas \u2014 even without the exact phrase \u2014 the intent is the same. Fast-to-action by design: no upfront intake. Output is four sections (Projects/Ideas, Tasks, Connections, How I Can Help) ending with a directive question. Asks at most one mid-organization clarifying question when a single item is genuinely ambiguous between task and project."
@@ -2246,7 +2241,7 @@
       "description": "Product resources"
     },
     "productivity": {
-      "count": 12,
+      "count": 11,
       "description": "Productivity resources"
     },
     "project-management": {

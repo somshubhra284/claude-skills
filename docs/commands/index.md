@@ -391,18 +391,6 @@ description: "124 slash commands for Claude Code, Codex CLI, and Gemini CLI — 
 
     Command: /cs:arquiteto
 
--   :material-console:{ .lg .middle } **[`/cs-andreessen`](cs-andreessen.md)**
-
-    ---
-
-    Command: /cs:andreessen
-
--   :material-console:{ .lg .middle } **[`/cs-pmf-check`](cs-pmf-check.md)**
-
-    ---
-
-    Command: /cs:pmf-check
-
 -   :material-console:{ .lg .middle } **[`/cs-capture`](cs-capture.md)**
 
     ---

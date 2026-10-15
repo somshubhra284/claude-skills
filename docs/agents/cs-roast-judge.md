@@ -70,8 +70,6 @@ opinion on an idea before they build it:
 
 ## Differentiates From Siblings
 
-- **vs `cs-andreessen`** (productivity): andreessen is a single market-first operator; roast is five
-  independent lenses judged together. Use andreessen for the market-dominates thesis; roast for 360°.
 - **vs `/cs:boardroom`** (c-level): boardroom is an enterprise C-suite pipeline needing
   `company-context.md`; roast is zero-setup and solo-founder-shaped.
 - **vs `cs-grill-master`** (engineering grill-me): grill-me interrogates to reach shared
@@ -79,7 +77,6 @@ opinion on an idea before they build it:
 
 ## Related Agents
 
-- [cs-andreessen](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/andreessen/agents/cs-andreessen.md) — productivity sibling, single market-first lens
 
 ---
 

@@ -50,8 +50,6 @@ Or just say **"plan my deep work day: …"**, run `/cs:deep-work` (full workflow
 
 ## Not the same as
 
-- **`productivity/andreessen`** — the 3x5 card picks WHAT matters today. Deep-work plans WHEN and
-  HOW, with attention protected. Run the card first, then block the day here.
 - **`project-management` capacity planning** — team-level capacity and sprint math. This is one
   person's attention across one day and one week.
 - **`productivity/reflect`** — end-of-week reflection prose. The shutdown ritual here is a daily,

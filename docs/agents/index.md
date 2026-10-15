@@ -391,12 +391,6 @@ description: "98 agent-native orchestrators for Claude Code, Codex CLI, and Gemi
 
     C-Level Advisory
 
--   :material-account:{ .lg .middle } **[Andreessen Agent](cs-andreessen.md)**
-
-    ---
-
-    Productivity
-
 -   :material-account:{ .lg .middle } **[Capture Agent](cs-capture.md)**
 
     ---

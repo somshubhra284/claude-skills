@@ -78,7 +78,7 @@ python ../skills/roast/scripts/cheapest_test_designer.py --risk price --price 99
 
 - Agent: [`cs-roast-judge`](../agents/cs-roast-judge.md)
 - Skill: [`roast`](../skills/roast/SKILL.md)
-- Siblings: `/cs:andreessen` (single market-first lens), `/cs:boardroom` (enterprise C-suite)
+- Siblings: `/cs:boardroom` (enterprise C-suite)
 
 ---
 

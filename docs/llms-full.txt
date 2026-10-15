@@ -104,7 +104,7 @@ claude-skills/
 ├── finance/               # Finance skills
 ├── research/              # Academic research skills (orchestrator + specialists)
 ├── research-ops/          # Enterprise research operations (orchestrator + sub-skills)
-├── productivity/          # Capture, email, reflect, handoff, andreessen
+├── productivity/          # Capture, email, reflect, handoff
 ├── markdown-html/         # Markdown-to-interactive-HTML converter suite
 ├── standards/             # Communication, quality, git, security standards
 ├── templates/             # Reusable templates
@@ -162,7 +162,7 @@ Academic/literature research: an orchestrator (hybrid router) plus specialists f
 The enterprise counterpart to `research/`: clinical study design (sample size, endpoints, phase-gate — estimates confirmed by a named clinical owner), R&D program finance (budget, burn/runway, CapEx-vs-OpEx routing), market research (TAM/SAM/SOM with method + assumptions, never a single number), and product research (study design, saturation planning, insight synthesis requiring recurrence across independent participants).
 
 ### Productivity (`productivity/`)
-Capture (brain-dump-to-action), email (inbox setup + triage, drafts-only), reflect (light-prompt journaling), handoff (conversation continuity with redaction linting and session hooks), and andreessen (market-first decision engine).
+Capture (brain-dump-to-action), email (inbox setup + triage, drafts-only), reflect (light-prompt journaling), handoff (conversation continuity with redaction linting and session hooks).
 
 ### Markdown to HTML (`markdown-html/`)
 A converter suite operationalizing Thariq Shihipar's thesis that markdown collapses past ~100 lines and HTML restores density/clarity/shareability. Ships an orchestrator (doctype router), a design-system onboarding wizard (WCAG-AA-validated brand palette), and three converters: `md-document` (long-form → single-file HTML with TOC/search/code-copy/scrollspy), `md-review` (code-review markdown → 2-column diff + severity annotations), and `md-slides` (markdown deck → single-file HTML presentation with keyboard nav, presenter mode, and print-to-PDF). Output is single-file HTML (Google Fonts + Prism.js CDN the only permitted externals).

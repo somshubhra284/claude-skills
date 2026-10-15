@@ -1,7 +1,7 @@
 {
   "schema": "agent-harness/manifest.v1",
   "domain": "productivity",
-  "skill_count": 11,
+  "skill_count": 10,
   "loop_defaults": {
     "max_attempts_per_task": 3,
     "max_loop_iterations": 12,
@@ -13,77 +13,6 @@
     ]
   },
   "skills": [
-    {
-      "name": "andreessen",
-      "path": "productivity/andreessen/skills/andreessen",
-      "description": "Marc Andreessen-mode decision and productivity skill. A blunt, market-first operator that pressure-tests ideas, ventures, features, and career bets through Andreessen's actual frameworks \u2014 market dominates team and product; the only milestone that matters is product/market fit; bias to build over deliberate. Use when the user says 'andreessen', 'pmarca mode', 'should I build this', 'is there a market', 'are we at product/market fit', 'pmf check', 'pressure-test this idea', 'be brutal about this venture', 'market-first take', or wants a no-disclaimers, no-hedging, confidence-leveled verdict \u2026",
-      "tools": [
-        {
-          "script": "productivity/andreessen/skills/andreessen/scripts/anti_todo_card.py",
-          "wired": true,
-          "supports_sample": true,
-          "verification": [
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/anti_todo_card.py --help",
-              "expect_exit": 0,
-              "kind": "smoke"
-            },
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/anti_todo_card.py --sample",
-              "expect_exit": 0,
-              "kind": "sample"
-            }
-          ]
-        },
-        {
-          "script": "productivity/andreessen/skills/andreessen/scripts/market_first_evaluator.py",
-          "wired": true,
-          "supports_sample": true,
-          "verification": [
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/market_first_evaluator.py --help",
-              "expect_exit": 0,
-              "kind": "smoke"
-            },
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/market_first_evaluator.py --sample",
-              "expect_exit": 0,
-              "kind": "sample"
-            }
-          ]
-        },
-        {
-          "script": "productivity/andreessen/skills/andreessen/scripts/pmf_signal_scorer.py",
-          "wired": true,
-          "supports_sample": true,
-          "verification": [
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/pmf_signal_scorer.py --help",
-              "expect_exit": 0,
-              "kind": "smoke"
-            },
-            {
-              "cmd": "python3 productivity/andreessen/skills/andreessen/scripts/pmf_signal_scorer.py --sample",
-              "expect_exit": 0,
-              "kind": "sample"
-            }
-          ]
-        }
-      ],
-      "agentic_signals": {
-        "goal_intake": true,
-        "refusal_gate": true,
-        "verification": true,
-        "loop_discipline": true,
-        "close_out": false
-      },
-      "references": [
-        "market_first_canon.md",
-        "operating_prompt.md",
-        "personal_productivity_system.md",
-        "pmf_and_build_canon.md"
-      ]
-    },
     {
       "name": "capture",
       "path": "productivity/capture/skills/capture",

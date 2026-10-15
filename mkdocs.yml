@@ -438,7 +438,6 @@ nav:
       - "Inbox Triage (Drafts-Only)": skills/productivity/email-inbox-triage.md
       - "Reflect (Light-Prompt Journal)": skills/productivity/reflect.md
       - "Handoff (Matt Pocock-inspired)": skills/productivity/handoff.md
-      - "Andreessen (Market-First Decisions)": skills/productivity/andreessen.md
     - Marketing (Landing Pages):
       - Overview: skills/marketing/index.md
       - "Landing Page Generator (HTML)": skills/marketing/landing.md
@@ -561,7 +560,6 @@ nav:
     - "CS FDA QSR Auditor": agents/cs-fda-qsr-auditor.md
     - "CS AI Act Compliance": agents/cs-ai-act-compliance.md
     - "CS AIMS (ISO 42001)": agents/cs-aims-iso42001.md
-    - "CS Andreessen (Market-First Operator)": agents/cs-andreessen.md
     - "CS Markdown-HTML Orchestrator": agents/cs-markdown-html-orchestrator.md
     - "CS Agent-Launcher Orchestrator": agents/cs-agent-launcher-orchestrator.md
     - "CS Agent Interviewer": agents/cs-agent-interviewer.md
@@ -622,8 +620,6 @@ nav:
     - "/cs:commercial-policy (v2.8.0)": commands/cs-commercial-policy.md
     - "/cs:rfp-respond (v2.8.0)": commands/cs-rfp-respond.md
     - "/cs:commercial-forecast (v2.8.0)": commands/cs-commercial-forecast.md
-    - "/cs:andreessen (Market-First Verdict)": commands/cs-andreessen.md
-    - "/cs:pmf-check (Product/Market Fit)": commands/cs-pmf-check.md
     - "/cs:research-ops (v2.9.0 — Research Ops router)": commands/cs-research-ops.md
     - "/cs:grill-research-ops (v2.9.0 — Matt grill research-ops)": commands/cs-grill-research-ops.md
     - "/cs:clinical-research (v2.9.0)": commands/cs-clinical-research.md

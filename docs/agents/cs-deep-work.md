@@ -73,8 +73,6 @@ where attention is the protected resource:
 
 ## Differentiates From Siblings
 
-- **vs `cs-andreessen`** (productivity): the 3x5 card picks WHAT matters today; deep-work plans
-  WHEN and HOW with attention protected. Run the card first, then block the day here.
 - **vs `project-management` capacity planning**: team-level capacity and sprint math; this is one
   person's attention across one day and one week.
 - **vs `productivity/reflect`**: end-of-week reflection prose; the shutdown ritual here is a
@@ -82,7 +80,6 @@ where attention is the protected resource:
 
 ## Related Agents
 
-- [cs-andreessen](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/andreessen/agents/cs-andreessen.md) — productivity sibling; picks the day's 3-5 priorities before this agent blocks them
 
 ---
 

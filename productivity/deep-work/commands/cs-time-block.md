@@ -22,7 +22,6 @@ earliest, capped at 4 hours; shallow work batched; the hard stop does not move.
 
 - The task list hasn't been triaged — shallow work will eat the plan → run `/cs:deep-work` (it
   audits first)
-- You need to pick WHAT matters today → `/cs:andreessen` (3x5 card)
 - Team capacity or sprint planning → `project-management` skills
 
 ## What You Get

@@ -6,7 +6,7 @@ license: MIT
 metadata:
   version: 1.0.0
   build_pattern: "Path-B method skill — Cal Newport time-block discipline preserved + deterministic scheduling scripts added"
-  distinct_from: "andreessen 3x5 card (picks WHAT to do today; deep-work plans WHEN and HOW with attention protected); project-management capacity planning (team capacity; this is one person's attention)"
+  distinct_from: "project-management capacity planning (team capacity; this is one person's attention)"
 ---
 
 # Deep Work — Time-Block the Day, Budget the Shallow
@@ -91,7 +91,6 @@ End the day with the shutdown checklist (`assets/shutdown_checklist.md`): captur
 
 ## Distinct From (don't reach for the wrong skill)
 
-- **`productivity/andreessen`** — the 3x5 card picks WHAT matters today. Deep-work plans WHEN and HOW, with attention protected. Run the card first, then block the day here.
 - **`project-management` capacity planning** — team-level capacity and sprint math. This is one person's attention across one day and one week.
 
 ---
