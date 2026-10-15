@@ -1,0 +1,36 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:2f6f70b61b455ccc447690271d3b6b5005c2d617d3fd9251e01d5f6bfb9dbf1c
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:859e328d0819c90c11c8d949083f3920c2223dfd5fefbf4eba9bd7550b223db2
+  rule_id: E1
+  file: scripts/memory_density_auditor.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1fecc90e7efe3413117f56285dfd1c6543be8ab24066aff9de5742d491bae35c
+  rule_id: E1
+  file: scripts/memory_density_auditor.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:115457550c86e5d8a74c11373995368d6826897c4fcd87e171a2bf545764e80a
+  rule_id: MP2
+  file: scripts/memory_architecture_picker.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:0e40708df3282c239917e454be3bacd3c8158d6c16d2628f524b40cc327ccaee
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:09c43bba43adad0452419d09f511a38d763611ed2212cc4e22dfd1891f689e7c
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

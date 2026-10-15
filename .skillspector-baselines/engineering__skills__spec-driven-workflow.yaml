@@ -1,0 +1,61 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:18ed19aecd68948961faaf7b3ae550761dc779ae974387c97f5a17af5362db1e
+  rule_id: TT2
+  file: scripts/test_extractor.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:71b27088664fec04c3e97f5de0ff1e0ff2fc162d9672103301f9de626911456e
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:486e74a434aa5edae8177162517dd09ae46283c1653aca7efea527637ba1c594
+  rule_id: EA2
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1ecf6eaba38800d9279e0bdb2dcff3cfe112b9a6666314f5a332971fd938847d
+  rule_id: EA2
+  file: references/bounded_autonomy_rules.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5b8a5a477bfec62df3fd0a901319bf5f2fe67f4a63af3e3173b28d1fe9454fac
+  rule_id: PE3
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:bf1dacf02087a6362f63a68614ad1423db43f9b77dab4d89eb8f6f9dbfb9b7d5
+  rule_id: PE3
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:42db681e4541bd125a1bc149ae6b9b42e40673e10279b6f2d293b1da2942f2a0
+  rule_id: PE3
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1e4c8e841a6769d147e08a057b9d626a4e4929e596b89c09dc42c018ef091236
+  rule_id: PE3
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a7e291b28f99d058124abf5a18a446cb16d5e8bcd7602064a9bc0e1218cc1727
+  rule_id: PE3
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3cce6fbfb7131e7f9043c568fae7f45dface11c726c3339ff3435efe3a44c5f2
+  rule_id: PE3
+  file: references/spec_format_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e9fe08431e6665b765c7f48948327321d4772b1d378dda4381543eaac2f2854c
+  rule_id: TM1
+  file: references/acceptance_criteria_patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

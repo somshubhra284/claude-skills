@@ -1,0 +1,181 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:28ea79e01c90fbf4265df6b9d537150965ec000d91e9aacedfff91e6d6d5e500
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d5d8b3ab65e58700ed7102759c688bfb775e755e2b845c3c4f43df65804e1bfa
+  rule_id: EA1
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:14fff7cd2926b54ce6d6977ae69cef4d16f14f0ffe37677b7e935e3f7fc3bd48
+  rule_id: EA2
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5a70b2cd161507d88b55e10d5ada7f8b6729615dd103f4ba3925e5b5a0034563
+  rule_id: EA4
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7d76887b2f7a28f50d84b1a79c8cde4cf7b38da1690ffa6da1f1bb3d321a9d6d
+  rule_id: EA2
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:51b61975eb8effbc502c2fb9ef2ed2e98d47a6d493027bbd19d68eef5da4a296
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:35a93d61b53850882af3e4ea01fc52f7df01bb7969233305d4794cffa0aa5533
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:aa3044db251cc4233208a2489777a6b0406d104cb92aeda7c5c42b85195eeb63
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:606204dbe816117f17f55195bd978d3d468b8fc88930b48cda596058699ac172
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:cfcdcbdb3945caf6648f069bb09261e4419599b2ee7b2907582f7f2121a59ca9
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:8a64fc996ba5ee97b6445ad79d5ab8755c4f3ea19dbda17c410f1591f2b40ae0
+  rule_id: PE3
+  file: references/checks.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7970464962de6823188e67b67006a7d49d9bcb59d209af6674282fc668af85bc
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ef6213285775e8feb3da2c949a200f85b8b7c5fe379ebd705367d7901594ad5e
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a4cdc842ca688bd6e17dddddfca776e1c4f7ff7e6614df2cdfddee114c09af5a
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:86af9a66a5eb27e76830c0ea8e657bb57d993182bc69844d91caaacca10c301d
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d5ead86e6fe92838fb12c4e5834c5416b017407ef0ab45c3b24d981756373901
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e126866186b9865ae6dc9baedd6566b248e88dc655c595ee1cf0bd182afee0e9
+  rule_id: PE3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a2f55b8161ab778b67a4940a08c59b85449ccb833d9269c1c72b652a1b4866a3
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:452c0f8cda88e640f5fadab2d9d632f070ea3be106198e39406272d1c4f6db41
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4483f25dfd7ccbb7a3ff32ce807aed9a509713b249da1d4cb77041b281dbfb50
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:804968a324cac9ec92caa67a5237994dc1e8c6c4b9ace4387a475da46b5a0e02
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6ce36a744da6f9d5102a8b5c986e5eed1bde3d364cec0cff32d52c42e918ed9e
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:021eaf4e0a62d295e37bb5fa5a242bd7bbdba0759527377c58ff7f549b954323
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:94a108baee10e5eaa89ef55dfd725633827ac989d83fb90c64ea34739f0f8b16
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:202f3641f767eded1b9d9da7d72897ee89f8cae020533a91ce44c2e880f44308
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:aeae5fb0b3ba29d54efd1734d474bbb876279e81ff25620c8a75956b583aa6d6
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e9a07bbaf661a6a7ef7ccf21b9d96596647f885879cef54567ae70dc501ba036
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:360ac88900bc9e1c6b742e7409031fdd184ec1e0f54f940a0fca33f5f6edfde9
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:cd2d2afeb95362fd50fd1d008fe928611d2c863eb806dcd00510802ffe9dcb28
+  rule_id: PE3
+  file: scripts/ship_gate_scanner.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e4956127cbe84f5684173212b85cd85f2df14fbbcabbdc6be6da969445fed873
+  rule_id: TR2
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:44093e0f53cfe29732b47a42ad627a575233c579c65c6e5cb120cf620bb3d6d7
+  rule_id: TM3
+  file: references/patterns.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d27982593043b0492693b53bf6c83f7b4e4f25a57e3e18dc5794160f7056c5c7
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4b2b076ca97eb53fc8f8113390ffe9c2a56a9698af7465e3ea92d0020c541eb8
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:d511762303d2d62df11fe9981851b9e4e5495e258f38893ce61cdcdfa8460567
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ccd179bdd088b62c9c15822f16a02e7932a324a632e818fd7a0b55f48f5cbe5f
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

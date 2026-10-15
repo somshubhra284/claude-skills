@@ -1,0 +1,41 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:bc2e8188c2351f8ffbc141c7a2d6bd538f2faad8d8a8dbec5fa77113bf6e42a9
+  rule_id: AST4
+  file: scripts/collect_sessions.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5ed82d0476ed3f7a42b7c0fad22ddd09dfb039f2deacdd913566b070505ed087
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:76b31550740450cc61a496157b91f70af3a469b755cf477ab85b8714eaf63819
+  rule_id: AS3
+  file: scripts/collect_sessions.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:140c4045b8cc5bf5cefe44331cfd5d398c99113a0d693ac1e4cf1d6479c1e5e7
+  rule_id: PE3
+  file: scripts/collect_sessions.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c50a36e36eb9ca5388d7cc552dbe7b9afada059a97b4edd86969b1d2722ab2fe
+  rule_id: TM3
+  file: references/session_mining_privacy.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3ca3c18fa39b5c1c0ef90fecd2f4e08674af0383a597e72c3ee22c1e64cf8513
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:74da78efe800acec9aea010cb47e7a16f23a9de5fa882b0a0241cee9d3d772a6
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

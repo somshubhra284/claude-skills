@@ -1,0 +1,146 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:d46fb0236a41a9bd1447a10d673da39d0305cb5cecd4db11c4d72a850c6f5149
+  rule_id: AE4
+  file: references/04-balance-sheet-and-cashflow.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7e494e339f42e7941e3959e78b740df3cb770fb493021b3919faef9bde77a345
+  rule_id: AE4
+  file: references/06-valuation.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:faeb84f81a6c1f47af7ac0798f54a3ee660f3136a306e88e20a7c257f7baacd1
+  rule_id: AE4
+  file: references/07-forensic-red-flags.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6803bd86647781f97c1c40e9e8512a3826454f2747c4b10f3e9679101bd0fc28
+  rule_id: AE4
+  file: references/09-risk-and-macro.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e5edaae4022c949231ab88580506f5c4280c725dc4e13fbbe076bf7536ea625f
+  rule_id: AE4
+  file: references/18-forensic-mode.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f9c73715931d6d4c9cdda3c10cd5c122b9b8b4cd9a22357ed6e056e0f1df2b91
+  rule_id: AE4
+  file: references/sectors/exchanges-payments.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:eaff882e8a0121b5e31633e616c3d9886470603b1a887b9496fed44054330959
+  rule_id: AST7
+  file: scripts/lint_report.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b64c152c6f1515037f4b6d51cf038dcaf07cb13c0b267c290619ebd0868e43f2
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a92355bf8e77beaeeb8d04268add54b1d4e8f666faeaed14ad09dbd658efd5a7
+  rule_id: AR2
+  file: references/03-earnings-quality.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:b562b7d64580a00558fffb846cee157c9e719b5515ca9f06c11bcfdd6e0350d4
+  rule_id: AR2
+  file: references/04-balance-sheet-and-cashflow.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:44f9c3054a90159c93f2035b8d6d77c006bfc4ab037e2c19e938393dba5ddfc4
+  rule_id: AR2
+  file: references/13-situations.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c227fbd0466434574046253d6b6707d84a5364412c6e76f79b949d1f938caeea
+  rule_id: AR2
+  file: references/sectors/aviation-hotels.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6387f87e3f7f7d44a0d1d33504cb0d03fe026b85eb675d753bd314a83c14788a
+  rule_id: AR2
+  file: references/sectors/chemicals-cement.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:515fe55b30160aa626a68b379236be2024ae5e4525e1e3ae5105426eab068bd6
+  rule_id: AR2
+  file: references/sectors/it-saas.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:07034ae27757831e6aed50f3d160a941e501370f1db0d8d428d0130afc0e6614
+  rule_id: AR2
+  file: references/sectors/nbfc.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3abe70198ed50c89d59297762f3c7fcddf541777a96eb3f87dbef2dcc27a2a4e
+  rule_id: AR2
+  file: references/sectors/people-businesses.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:cf26fc85ff947255725cf691e377709d4429553047f9acfd1b7baacfb2618653
+  rule_id: AR2
+  file: references/sectors/rail-freight.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:533335a774c06f3096fabcaac51e5276fa7207adc0c3f210dedf10b08fce451d
+  rule_id: AR2
+  file: references/sectors/semiconductors.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:660b77c8ea5bd648539a62d410b8f3180659acf802381ccdce18693e6ebba5eb
+  rule_id: EA2
+  file: references/14-accounting-comparability.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:bf2133843a93d4a70bd483e78f3d5d3650a3afd1aa3bac4a17fd1438905035a3
+  rule_id: EA2
+  file: references/sectors/_index.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c784dadf5deaf8608d1608d017a90577652259f588edccc6b8372aae68903ce0
+  rule_id: EA2
+  file: references/sectors/realestate-reit.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5cfaa0ecd7856d3909475051a0b9e062ee3da9b003721c3012dbfc5ec06ba216
+  rule_id: EA2
+  file: references/sectors/realestate-reit.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:1efd945f69d80cdd3bca39078b78a8584381e4b926a6bd502849cf8ffa574cde
+  rule_id: EA2
+  file: references/sectors/waste-environmental.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3b835cebbb08ec9b65f454bf5ac001856745235eab76944971992c092bbb1291
+  rule_id: EA2
+  file: scripts/benchmarks.json
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a8375fe501d770051fbe7e27116966989914ee9424290aa1b781477068b35766
+  rule_id: P2
+  file: references/sectors/holdco-assetmgr.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c1f4b6e305cd9375569b18699beb1dd0c347eb15e5e269b219be495eee6e2746
+  rule_id: YR4
+  file: references/sectors/infra-capitalgoods.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:fcc079a7ab9b08cf7060dc6b30ee1279b8b833aa820e3b35f23305987f2696fa
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:8799dc0fe0100c528e3d783dd7471aec98dfc866c7b7d4729d7fca5ea83a8602
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

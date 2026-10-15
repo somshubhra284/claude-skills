@@ -1,0 +1,76 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:63ae31073aec3ce22f2f2f82a83e77fe64723978686b319d4d70378a0e5c88fc
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:03310ab13ab63071299a350cec1df45ae13e47acba1ada276ea9d088c95fc1f8
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:82e25d0828bf8e3b69512caa6530812172ecc1f7522dcf6f8df262c5d514e47a
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3c7cdb19f7367a8d9db884bf30752e957fa54495ff89626aed8966fddb19de08
+  rule_id: P2
+  file: references/accessibility.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:41ed4397641589be5c64a037b21f6082e091f94f546327b00e0231e10981ec36
+  rule_id: P2
+  file: references/depth-system.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:37743f33f39c2856e9a1ad341da8359b15e618987c7e845b2a2d4becb175949c
+  rule_id: P2
+  file: references/inter-section-effects.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:0a892623dc3cc93c4cf8490176ebccb91dcf0667caa68b8620f6fb1c01b8dda8
+  rule_id: P2
+  file: references/motion-system.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:87569d2315e2b7af8bf717e8f745989c0855a3952059dfa3412c9c1d72d56c25
+  rule_id: P2
+  file: references/motion-system.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e4a902e78b5a1f7178a85d3936cef91036076a2fe2431565ceb66dda4ab165f4
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:64f8abbc4fe09c4eed01d179d952f218d3992b9f20ec4b4e0c1e1d3edaa5f606
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:dd6b958a820eb770f3f7caa9914ab1b9dee7185728f814b97d955baeb8df414f
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:828cc14aaa17fc9018cba77217cf208d6b0eee2838dfb9ba6962252afddcba1d
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:729cc0c38eea1c56e43d3cd11d1ccbfa3ac007d50e27e71ad1e38f9785a65291
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f6b3f7e398b14782ae59f9583d4c233af16185a6db74aa9a07832fb303e00c97
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

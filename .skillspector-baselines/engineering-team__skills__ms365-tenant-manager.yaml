@@ -1,0 +1,66 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:56dbcf8a6c7c3c3798830e75bb6047fbc2bbdcb709d388a13a9d79932654e072
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c8265095cd98892d814f9c28b9d9e57e70c0f7032c874846246ef5e892f42ed1
+  rule_id: PE1
+  file: references/security-policies.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:32ebdd22b053a78c153ceff6fa5de2e18828371920bbcca7fe549d6c21ac4f27
+  rule_id: PE1
+  file: references/troubleshooting.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:edb151b72cb0ce391cef13c61a0add76e292002e415870d0ca5ba0c25b8487d0
+  rule_id: P3
+  file: references/powershell-templates.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:647bf95f9573fca5a9381b8b12662312bdd5ac40cfc7a9f59f8415b94c331f17
+  rule_id: SC1
+  file: scripts/tenant_setup.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:fde151b360a4f2ad9d23738f19c7c16e08034c72d60a1d16632531b9651c6967
+  rule_id: SC1
+  file: scripts/tenant_setup.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9441fa1e46fb976aa31ab984e06f36b52980aff228d2fd612a4aaefce1d3ab1b
+  rule_id: SC1
+  file: scripts/tenant_setup.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4a1b7a6e6148918792482077e252ac6d9fe86c275422d700ad16d3120885a6a9
+  rule_id: SC1
+  file: scripts/tenant_setup.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:8401f8c31854a771745d74b1481704da3b7e13d8f1bd5be5690a3fc422252df9
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:784ed7e10a1f2209107e7e3e33e75aa1bc17db80903b4395fb0b62f9703134c2
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:cce7d337d4454ab3c102e3cf60a77a5601e037d30db0ba40014a3c6094629873
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:286e7a644923800cadfd8570db14af025e9480153ee77ed4a141f86e8b3be972
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

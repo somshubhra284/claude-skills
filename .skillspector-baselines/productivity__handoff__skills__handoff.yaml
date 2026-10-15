@@ -1,0 +1,36 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:99061051bb3569454fda8134144e14572e57c44f57403b680cfb83adc9a3e3bc
+  rule_id: AST4
+  file: scripts/handoff_self_check.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:2e2aea451a841b684f82f1a06a990197949343e4c5366ea58119825f9f6864f8
+  rule_id: AST4
+  file: scripts/handoff_template_generator.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:aa5508154fb48363fec52e2201abd2776c69d430f74a1fdfd9c6323d6c72ae47
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e486b2cc89c69d2665cc0886f84f49cdf20d4158b0419004721a53b8d0ee8b84
+  rule_id: E2
+  file: scripts/cleanup.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:820209aecfef35175b31ffccf3db1feb51de754657b42a3427584f43500b000c
+  rule_id: E1
+  file: scripts/redaction_linter.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f22bd8a37a4dc5538e60cca7f6df098590539abc795d544ca2ecb60a784222a5
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

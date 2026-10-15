@@ -1,0 +1,106 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:29a5febb10005f240ff43b915d33c42472f0f323a9b5e3f6c010b4525183135a
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ac05387f0f6819258669d7afa81c3249499cd118966c1333acbe987073db1df1
+  rule_id: E1
+  file: references/frontend_best_practices.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:7c6489a886a3e50a814fad12c6ca0961cdafe5ce932accd22e7d40356fac6633
+  rule_id: E1
+  file: references/nextjs_optimization_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f6c775387c0d2bdfa309aea48caebde456ed8bdf7910048288e5e5dfd3b5adc2
+  rule_id: E1
+  file: references/nextjs_optimization_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:2f14681ed9cb9993edb4ba6aa5e791ea4988fc5421cc8b3d801f530c67beaed3
+  rule_id: E1
+  file: references/nextjs_optimization_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4cd45088c174124fc3281953988e9b49c9ae90f76547d1f324cb6a59a555936f
+  rule_id: E1
+  file: references/nextjs_optimization_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:4d3c0587523bc3abbba40f4eb2487d9fb46c59ab83cfa0e1af2bfaf068161e57
+  rule_id: E1
+  file: references/nextjs_optimization_guide.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:86022703d3050341f01dc028da03c47134041c675255613dbdc24053c71baf58
+  rule_id: EA2
+  file: references/composition_map.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f52472c77b50857c39bca178e372c03a07738c64eff67a79c4af4ca763943502
+  rule_id: EA2
+  file: scripts/frontend_decision_engine.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3af35ca5021b4296e8e766788c353ba8c52303d7413c73273ffcba94f571d1a7
+  rule_id: OH1
+  file: references/frontend_best_practices.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:2a43bd7234d3ac2ac686012331f70637fd31709e43d81381880f7df54b22fb6c
+  rule_id: PE3
+  file: scripts/frontend_scaffolder.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:89af8e53216396a294f36532c7bc107973fa5892f20d710a9880270b07bcd651
+  rule_id: PE3
+  file: scripts/frontend_scaffolder.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:879ef02b7a3c8552c8d95687927930e0bde19894fb6cca39b591fbde26d4d0f1
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:bb18727b56f7828d1b745f7905a188a8dc91006c779551f2f5acc4e2639244c8
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a35376345a3085c738119d8166e9da925f2aa858bd2ad5fd30390b1da7723502
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c25ca4db1d85fa16acaa088194e680c959cdfb3f074a4f28998ff5ab4da8c980
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f08fe4dfc2fa2f07f527ba5a1d8d195f9469a008c33479b27312ab9ffb25daf0
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9a41c95eeaecdee86bb863288ef57e0b0195339ae44c033dd6086f828de69092
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:91bf256323fcf43254c37fe3bce47d8a2e4e5c16da12b9c02dbab6bcf09fcd4b
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:f18fb5e1c90903e29c92406fc65df44d2ce2c5e2a2f01a61ccbcae5564da8152
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

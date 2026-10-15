@@ -1,0 +1,61 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:918671a1e142651368a925515541fa602f3c99a1914844061a83a2a31307f48c
+  rule_id: AST4
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e3dffdd40681565e576b84d1f3d464d359d8f084a745ae4591cdee81e0eca171
+  rule_id: AST4
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:74473aa3fe9baa0ed4c1406e627418f0b2f21a1dbd924d75b4edc141bdaf83c2
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:72274210d0e6e2f127ff6ca21fd334a2fdf2f455606b3b50ab37d3a4d1091494
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:385b28b6af90b5e2abcd6802fccc2a728d80b61184b8aec2643cef188ec1bbcb
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:e3ee29b6aa98f485ec1a83e2bb0b01c726cbcac30ed8265ed64f2cd2a6833e4a
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:9ca252264b0e77860a7bd69b242e6af08a62f73f8a9b0a0219e19f0b547a7a3b
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:c512129e6865b8eead79cf6093813234a17d7378c1f595df63ad4b1838d59f8c
+  rule_id: EA4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:878b817cc20981aebd1e12cc713abfadd50e698b5888e2354326f31298ee249e
+  rule_id: TM1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:fccdf4e3379969825e159c1753eb17bb182c7d46cb91b05650b5773b9bd03e1b
+  rule_id: TM1
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:76f232194d743798cf60c9d727049c7fce28c9b3c9ac56790aa80bf3a090ea50
+  rule_id: TM1
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'

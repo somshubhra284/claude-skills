@@ -1,0 +1,56 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:2d8f7c6568cca41c0c64bdb6551a0d56eee4a4d589bcac420d6143cf466a7c2d
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:a2242f8551e6a4ab1c2bff147bc875b6c18d6f33e30ecdfd1292658835d95eef
+  rule_id: RP1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:6c37c60b771b3a80b7d7861900753bfcb72420b9f263f9a0ac55cb460d7e12dd
+  rule_id: RP1
+  file: reference/flaky-tests.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:83fc0f03f44bc26d08667ecd4c10935d7e0d310bfa24fe7e6acc87f7a5d1848b
+  rule_id: RP1
+  file: reference/flaky-tests.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:5e5483888af22e4b62d0169038154bed73f39e63b9efd59c7278855a87ca3855
+  rule_id: RP1
+  file: reference/flaky-tests.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:39f2d0145bde4bcee5640e92b2634f277afac8a01d23b6dc027129b0464f7f55
+  rule_id: RP1
+  file: reference/flaky-tests.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:3c7891dfd2811eb36d698aa008bc3ee1b8303550c002f436221f924c69a76758
+  rule_id: PE3
+  file: templates/api/auth-headers.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ba6d600bc12d216c66fd0c1bc43a91581a78c3fe969efa20c81ccdbd13244229
+  rule_id: TM1
+  file: templates/api/rest-crud.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:ac34a7754011bb877d27a5938484af16bd83a92ad60ae6ddafdc34a05057dc14
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
+- hash: sha256:56a5d6c887bc5f59868684d5afaf5ccf33dc9ad255638a8917d83e71b3d44b32
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15 (main@19392f7): false positive / expected content
+    (docs, samples, security-tool patterns, local health check)'
