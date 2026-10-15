@@ -1,0 +1,31 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:979da4ea283fdc4ad92a3f6c7d7966a0170cb1e742dbfa06244bae224a745976
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6474d8ab7283ef01dbd6ea24fdc056a0c297f69994c500d35aacbeb7711f2740
+  rule_id: PE3
+  file: scripts/security_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:609157c63756acdd62b841b312976e234eb2def1acfae2511f1b43c0c0c6ce9c
+  rule_id: PE3
+  file: scripts/security_scanner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:61a4befb513e179464c536f3b83bdf88bbee4d4549c42175393af15e36250dc0
+  rule_id: SC5
+  file: references/compliance_requirements.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:cd95ed0dd9d183e6e125cdec44768bce89f2c94c193bd54a9bc89e4a8dc1dac1
+  rule_id: SC6
+  file: references/compliance_requirements.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

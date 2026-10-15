@@ -1,0 +1,136 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:91700179d05949e8b848d472f9bc9dcc69f4f747ff78e3470c5a977140ad3839
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:71782d050edf7eea17d06f61973c9da0666b0a02094c0a01329c8bfbdb1e80a0
+  rule_id: OH3
+  file: references/compose-patterns.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7dc12a8e8c995972ee84ce50a4480f16d044179bc957572cfa143489218f7b71
+  rule_id: PE3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4de144a60bf0218437f847a34d690cb3940ea05a9ef63faa3b40ab17ccf81adc
+  rule_id: PE4
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:49e023c18ec9342309c56788595ff007e66fba9021580e72fb7f5bb2a6310b4d
+  rule_id: PE5
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b97486be0e82691e445b20ebe9ec6d5eb5d6844e54ea6b2684274384165eb392
+  rule_id: PE3
+  file: references/compose-patterns.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d6c68c93dac38e1916d6d7ed949ffc7fed991f61a8fc362ea439bb21ba714246
+  rule_id: PE3
+  file: references/dockerfile-best-practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5e47cc83aff4adf6978e918853ba9d6b7a468081afa385337ac36c9d8b22d281
+  rule_id: PE4
+  file: scripts/compose_validator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:b6a9f83978b5f9cfbea65adfbb736e6267c0d86eeba706763220725efe495e73
+  rule_id: P6
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e9ae20b340528e9275f79cecd7bb00cab67b570280f7911ba01b385411395d70
+  rule_id: P6
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:de9d6e58e2403eb389218e6de1a0198a78f9ef5827c6eebb9945b06c13f0b27d
+  rule_id: TM1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d4b813b74b902ced3055a2a1abea54d87f558a4820b5a965b1b712dca927fe7c
+  rule_id: TM1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:5f8fef0a29c449eaecc312ed647a9fc3cfb2679f7e7028c706984681ce921d68
+  rule_id: TM1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f1564f99ee974b54732590a18b15f21f79220ecf10797ff0bae679e1319602ab
+  rule_id: TM3
+  file: references/compose-patterns.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3f39e66c5300af7cb6b784d9ddda9ea654e745e12a6eac68164d8df7f3ecf3de
+  rule_id: TM1
+  file: references/dockerfile-best-practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:508ca2a6380fe97dcee37a4b838245471a51079775af2d32c6ece997422d374f
+  rule_id: TM1
+  file: references/dockerfile-best-practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2ebd6adc1d74287c858103756ec94de356c4b3458fd6591b77f5eb9438097f66
+  rule_id: TM1
+  file: references/dockerfile-best-practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:60c3ac923d8af86f1de568a3cbb26b74db19c4bec1992c31f9d98c8a35120496
+  rule_id: TM1
+  file: references/dockerfile-best-practices.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:941a3d836bc69824e047925c963f87177cbc2acb699a903e232d37c354927cec
+  rule_id: TM1
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:cb35866bc3649641e2e4b13e81d6efceba705069a969b9103fc199d9741f1374
+  rule_id: TM1
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:177e45bd78b916217081f947679e1320838fe6711d421d01ceb57662f8f66ec5
+  rule_id: TM1
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:20e6a0f80b014c6b2bf49745f55e2851a92b0fe4a3d890b3d598636c9c14310a
+  rule_id: TM2
+  file: scripts/dockerfile_analyzer.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:36986060ae96622dc87ebccacbd5b451a90fbc5b33608ed450a5ca55289d85d7
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e12d28d3ae884f7826278134c022e621b433f6f547c6af2230e77a6a482ea811
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e2fb441f1af698fcc0bb9858fc94d4faa1598aa517f9bce3b97912fc85249f9d
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f6032ab555920620a5f6808554db63cb783bf520dd733eca52923167eb80ea12
+  rule_id: AE1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

@@ -1,0 +1,61 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:78038132335bf699a0ecb304d69347c96a5ddbaa724d4db767b096042ef35425
+  rule_id: AST4
+  file: scripts/worktree_cleanup.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:6eedec85da04afdc3f5aa9be4904ecbfad5c2a3261fae7151dcb910ffe830c86
+  rule_id: AST4
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1c264f76cbc3767098b958d47028414c9f754552b72fd76af489ba763349e053
+  rule_id: TT5
+  file: scripts/worktree_cleanup.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f8597fc88b6cb213e936aa2c1c05e55bfa76c573a863641ec930740a3c3bbf5b
+  rule_id: TT5
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:946b7d6be0709c562438741ab175d63c7a3465187b7db0bce1b4591ca50bfd17
+  rule_id: TT2
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2448d11213f7d7339d091440e32f81af23bb9416aa11e4055916a08ec42db7cd
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1034c3e0892b6c7a3ddd2676faf4e819dd8108bfd0b662abd3c4b6bab37b5a80
+  rule_id: EA2
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c52e71b069b9e69b81bc6f24bb93802f3712a8d1c66d65b00b89270c1fa59eef
+  rule_id: PE3
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c50cb735da744eae43ef9d03bf701cb7cc904357b7a3a3c03b075437376bfb08
+  rule_id: PE3
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:162612fd81a06d0a9c7d7df7ef8363d09de2db9f336673ee06e56dfffc210de3
+  rule_id: PE3
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:f36fac48ce66978cc52c2000facb63cf29e00a6a3d9fc082960524196973fa4a
+  rule_id: PE3
+  file: scripts/worktree_manager.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

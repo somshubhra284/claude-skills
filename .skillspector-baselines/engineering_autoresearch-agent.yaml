@@ -1,0 +1,181 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:69d27ac2f6975d2fcb809a27d160c996c5aa4216728d86779eb221812a99dc2a
+  rule_id: AST4
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:4d6e8d7d2e065e39330197a0b57c2fc361f9315f18a5a5e8bcab6a3067da04f5
+  rule_id: AST4
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:189fc9a4966f2a7904849e1d8cbda7ab74ad3eada04980b89027be5b052944b4
+  rule_id: AST4
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c64aff8d8f4e43dfdd26f7ebe7613319bd7d44a53c73ddf2b3f373209a1c6f9d
+  rule_id: AST4
+  file: evaluators/benchmark_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:7a9a14cc9aa437531b56cbad295138f82933a4fb9a4994f5d7dc567d0e216944
+  rule_id: AST4
+  file: evaluators/benchmark_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ccff5ba4e3e75d5f46bd5d99a4cd6fb6150534e81e66aff415925c077df30cba
+  rule_id: AST4
+  file: evaluators/build_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e30a68a04ef8fbb2ee2ed003453d8f30826d2e95a4b71d7fcdf26598944b1c0b
+  rule_id: AST4
+  file: evaluators/build_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:acb7da25bb01d6dd0ef3baf0d4d7aeedc1fb17fa33dacfac3b55f060c88be349
+  rule_id: AST4
+  file: evaluators/llm_judge_content.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:cffcfc7853e105812e4b96e6ca3f8b8227600eee9a3016e3b2119f67a3f26e94
+  rule_id: AST4
+  file: evaluators/llm_judge_copy.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1cc6297c44aaa35af6796912c7ef1a7f2a0c1cdbbbbe325c1fa675791f121b10
+  rule_id: AST4
+  file: evaluators/llm_judge_prompt.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:44a10ff45a0c020c4714201d5e40ddb04b822a80d8e9dd0c0851950b10d7d686
+  rule_id: AST4
+  file: evaluators/llm_judge_prompt.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d84cb4b81fb659844683c0707ce47eb07d50d7b4786534fa60820a0732a1e1e0
+  rule_id: AST4
+  file: evaluators/memory_usage.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:65be2c3617f31165334f1452d4d03a55c0a901eb9ad6f1c1457e45326511a393
+  rule_id: AST4
+  file: evaluators/memory_usage.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9f1114a11bbe116d1b45615b02ba3235c5e195ae32f2cf66cc87543cfc0c780b
+  rule_id: AST4
+  file: evaluators/test_pass_rate.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:918671a1e142651368a925515541fa602f3c99a1914844061a83a2a31307f48c
+  rule_id: AST4
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e3dffdd40681565e576b84d1f3d464d359d8f084a745ae4591cdee81e0eca171
+  rule_id: AST4
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:74473aa3fe9baa0ed4c1406e627418f0b2f21a1dbd924d75b4edc141bdaf83c2
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:72274210d0e6e2f127ff6ca21fd334a2fdf2f455606b3b50ab37d3a4d1091494
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:385b28b6af90b5e2abcd6802fccc2a728d80b61184b8aec2643cef188ec1bbcb
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e3ee29b6aa98f485ec1a83e2bb0b01c726cbcac30ed8265ed64f2cd2a6833e4a
+  rule_id: AST4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:1d5341d7600dfc4ef17976c81a81807bb74f5d1c6870eba3ac112c58950318e0
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:c512129e6865b8eead79cf6093813234a17d7378c1f595df63ad4b1838d59f8c
+  rule_id: EA4
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2b6c2e00eb54b246323ab2cbe2605d3228e471fd4e81c9f82390d2b3b4c46763
+  rule_id: TM1
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:87b8b1526b5ec1e8451301c4df101e9d44082bbe738675144abe6f8ebdb3c05c
+  rule_id: TM1
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:0e45b81b1bc24a7a7a52b776d376c114f68ff681258ce3ef7cfda2fce2eede46
+  rule_id: TM1
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:374bc1238cc576b3f293f9420f67c5c714fca042c0b3f4e2c990384f4e97a635
+  rule_id: TM1
+  file: evaluators/benchmark_size.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:d23f1a97794a496475db98be900306afe9487d1fde38adc4d8d7d8d266eed6db
+  rule_id: TM1
+  file: evaluators/benchmark_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:8937ac0c6bf918e34c0d39a1f3fa6a668580ec8393f3c222a1131d01673a0594
+  rule_id: TM1
+  file: evaluators/benchmark_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:095a08ccb89a3f4c05f5e1b0a1edc8ce374ed2cd0d817cddf0b7bcad9505522e
+  rule_id: TM1
+  file: evaluators/build_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:989ceb646621460c2a51ca72dddb0ba9cfe95277f884a81b6b28ba11850c4c65
+  rule_id: TM1
+  file: evaluators/build_speed.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:ee8115ef7ea614aa1753ff875ad5fd1f8a47a97cbcaffc9f903c2d4fe8b036c3
+  rule_id: TM1
+  file: evaluators/memory_usage.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:45e50602cda007d857af7093c2412d44940e90c9dff1135372c8eef9b59f8305
+  rule_id: TM1
+  file: evaluators/memory_usage.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9d5f7d72301f05a85a95fbc6f4a8d9f34695305606551f46b5878d7f12a6b605
+  rule_id: TM1
+  file: evaluators/test_pass_rate.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:fccdf4e3379969825e159c1753eb17bb182c7d46cb91b05650b5773b9bd03e1b
+  rule_id: TM1
+  file: scripts/run_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:76f232194d743798cf60c9d727049c7fce28c9b3c9ac56790aa80bf3a090ea50
+  rule_id: TM1
+  file: scripts/setup_experiment.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'

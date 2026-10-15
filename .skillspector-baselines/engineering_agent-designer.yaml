@@ -1,0 +1,46 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:e429a6c634307c331d6dab89b9b52fe42065d7bdc7d2614ddf896a9f92a27165
+  rule_id: LP3
+  file: SKILL.md
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:3cc5bddfa7f11dfa17a6fd5018a00737cdc13091305d9622a81497c0f6ecd1f7
+  rule_id: EA3
+  file: agent_planner.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:9c031a41fdb23754e939151de760f079058916dd551792214a6860200ef192ea
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:14b9ea691596b373c7ef1ccd13a9fe5b412181de24869580aaf49d2274630d01
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:89ce2eb658b21d6a0b7fab083e091b69afe320c583efa47c89da3b45a52bac0c
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:e696985e0983d2ff1d7a1df0565bb17e5694d02b6a13e31de1a2d0d7ff049f0c
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:18e849d9434a799ba0007a7cb9b8fe6f035a4bed79545751c5f8b12deca0ddb8
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
+- hash: sha256:2ea073089a4cfa6ee5cf660c4f0e9cbe6a556144c58ce804cca702288a5e0e0b
+  rule_id: P6
+  file: tool_schema_generator.py
+  reason: 'Manually triaged 2026-10-15: false positive / expected content (docs, samples,
+    security-tool patterns)'
