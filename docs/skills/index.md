@@ -224,7 +224,7 @@ graph LR
 
     ---
 
-    Personal operating system: brain-dump capture, inbox setup and triage, reflection journaling, session handoff, and Andreessen-style market-first decision checks.
+    Personal operating system: brain-dump capture, inbox setup and triage, reflection journaling, and session handoff.
 
     [:octicons-arrow-right-24: Browse skills](productivity/index.md)
 

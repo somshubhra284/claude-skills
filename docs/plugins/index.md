@@ -106,7 +106,7 @@ graph TB
         S1["Engineering: pw, agenthub, llm-wiki,<br/>slo-architect, chaos-engineering..."]
         S2["Leadership: c-level-agents,<br/>executive-mentor, vpe-advisor..."]
         S3["Research: pulse, litreview, grants,<br/>dossier, patent, syllabus, notebooklm"]
-        S4["Productivity: capture, email-pair,<br/>reflect, handoff, andreessen"]
+        S4["Productivity: capture, email-pair,<br/>reflect, handoff"]
         S5["Marketing: aeo, landing, youtube-full"]
     end
 
@@ -170,7 +170,6 @@ Standalone plugins install a single skill or toolkit. Use these when you need on
 | `email-pair` | Paired inbox-setup + inbox-triage with a 7-file knowledge-base contract |
 | `reflect-skill` | Light-prompt reflection journal |
 | `handoff-productivity` | Session-handoff notes with redaction linting and auto-load hooks |
-| `andreessen` | Market-first decision pressure-testing in Marc Andreessen mode |
 
 ### Engineering favorites
 
@@ -288,7 +287,6 @@ Every plugin follows the same minimal schema for maximum portability:
 | `agile-product-owner` | Standalone | product | `./product-team/agile-product-owner` |
 | `code-to-prd` | Standalone | product | `./product-team/code-to-prd` |
 | `research-summarizer` | Standalone | product | `./product-team/research-summarizer` |
-| `andreessen` | Standalone | productivity | `./productivity/andreessen` |
 | `capture-skill` | Standalone | productivity | `./productivity/capture` |
 | `email-pair` | Standalone | productivity | `./productivity/email` |
 | `handoff-productivity` | Standalone | productivity | `./productivity/handoff` |

@@ -47,7 +47,6 @@ Or just say **"roast this idea: …"** or run `/cs:roast`.
 
 ## Not the same as
 
-- **`productivity/andreessen`** — a single market-first operator. Roast is five lenses → a judge.
 - **`c-level-advisor` `/cs:boardroom`** — an enterprise C-suite pipeline needing onboarding. Roast is
   a zero-setup, solo-founder gut check.
 - **`engineering/grill-me`** — interrogates to clarify a plan; issues no verdict. Roast judges.

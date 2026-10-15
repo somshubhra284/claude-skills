@@ -27,7 +27,6 @@ ledger and a shutdown ritual.
 
 ## When NOT to Run
 
-- You need to pick WHAT matters today → run `/cs:andreessen` (3x5 card) first, then come back
 - Team-level capacity or sprint math → `project-management` skills, not personal attention
 - You just want a quick schedule from a ready task list with no audit → `/cs:time-block`
 
@@ -92,7 +91,7 @@ python ../skills/deep-work/scripts/focus_session_logger.py streak
 - Agent: [`cs-deep-work`](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work/agents/cs-deep-work.md)
 - Skill: [`deep-work`](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/deep-work/skills/deep-work/SKILL.md)
 - Quick variant: [`/cs:time-block`](cs-time-block.md) — schedule only, no audit
-- Siblings: `/cs:andreessen` (picks WHAT today; run before this), `/cs:reflect` (weekly reflection)
+- Siblings: `/cs:reflect` (weekly reflection)
 
 ---
 

@@ -2,8 +2,7 @@
 
 Every claim below carries a confidence level. Where a source is paraphrased
 rather than quoted, that is stated. Where a figure comes from a vendor rather
-than a controlled study, that is stated too — following the `andreessen`
-precedent in this repo.
+than a controlled study, that is stated too.
 
 ---
 

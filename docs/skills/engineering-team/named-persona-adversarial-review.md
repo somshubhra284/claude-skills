@@ -46,7 +46,7 @@ Abstract adversarial review ("act as a saboteur") produces generic findings — 
 This skill puts named, real people's *principles* to work. That power is also its failure mode: **language models hallucinate quotes.** To stay honest:
 
 1. **Cite the principle, not a fabricated verbatim quote.** Prefer paraphrasing a documented position ("Thompson's *Reflections on Trusting Trust* argues you can't trust code you didn't fully create") over inventing quotation marks around words the person may never have said.
-2. **Attach a confidence level to every attribution** — `high` (documented, in `references/persona_principles.md` with a source), `moderate` (widely attributed, source not pinned), `low`/`unknown` (you're inferring). Mirrors `productivity/andreessen`'s citation discipline.
+2. **Attach a confidence level to every attribution** — `high` (documented, in `references/persona_principles.md` with a source), `moderate` (widely attributed, source not pinned), `low`/`unknown` (you're inferring).
 3. **If you cannot ground a persona's lens in a real source, drop that persona.** A confidently-wrong quote attributed to a living engineer is worse than one fewer reviewer. Never fabricate a citation to hit the "≥1 finding" bar.
 4. **The finding must stand on its own technical merit.** The persona is a *lens that directs attention*, not the authority that makes the finding true. A real bug found "through Carmack's lens" is real because it's a bug, not because Carmack said so.
 
@@ -164,7 +164,6 @@ Inherits all from `adversarial-reviewer`. Plus:
 
 - **Extends:** [`engineering-team/adversarial-reviewer`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/adversarial-reviewer/SKILL.md) — abstract-role adversarial review (simpler, faster, no grounding needed)
 - **Related:** [`engineering-team/code-reviewer`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/code-reviewer/SKILL.md), [`engineering-team/senior-security`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/senior-security/SKILL.md)
-- **Sibling discipline:** [`productivity/andreessen`](https://github.com/alirezarezvani/claude-skills/tree/main/productivity/andreessen/skills/andreessen/SKILL.md) — the confidence-level / never-fabricate-a-citation pattern this skill adopts
 - **Sources & confidence per persona:** [`references/persona_principles.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/skills/named-persona-adversarial-review/references/persona_principles.md)
 - **Theory:** Edward de Bono, *Six Thinking Hats* (1985); Daniel Kahneman, *Thinking, Fast and Slow* (2011) — System-2 forcing via role switching
 
